@@ -8,3 +8,5 @@ almost half the code is from `public static void OrbitalBurn(Stopwatch stopwatch
 
 405 lines, almost 14000 characters, almost 1200 words, 20 code comments, ~30 variables, and 778 uses of the letter 'e'
 
+
+also can someone tell me how to use git to access a repo on github
