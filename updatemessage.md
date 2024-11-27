@@ -1,10 +1,13 @@
-Version 0.1.1 ig
+Version 0.2 ig
 
-its not a virus lol.
-anyways i'd like to thank Wikipedia, the space and math stack exchanges, stack overflow, and desmos.
-soon imma try to add a payload creation system w/ mass, delta-V, Isp, etc. (NOT ROCKET SO IT STARTS IN ORBIT (aka much easier)) 
+oh my god my program is so broken
 
-almost half the code is from `public static void OrbitalBurn(Stopwatch stopwatch)` lol, thats what makes the burn function possible
-405 lines, almost 14000 characters, almost 1200 words, 20 code comments, ~30 variables, and 778 uses of the letter 'e'
+it turns out all of my eccentricity math was way off so i fixed that. also i added some helpful arrows on the diagram to give a better sense of where the spacecraft is.
 
-also can someone tell me how to use git to access a repo on github
+if you tried the burn function... sorry broski i said it already. setting my apoapsis to itself cost 86 dV and trying to do it again cost NEGATIVE TWO THOUSAND WHAT
+
+also i've all but given up on the mac releases because idk whats going on with that
+
+the stuff i talked about with the payload goals for this are still in my mind, just that now i see that there are many more priorities
+
+415 lines, almost 30,000 (wait, 30000? this doesn't check out) characters, over 2400 "words", 24 code comments, a few more variables, and 1576 USES OF THE LETTER 'e' WHAT THE HELL HAPPENED HERE
