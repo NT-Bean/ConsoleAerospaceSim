@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 using System.IO;
 using System.Diagnostics;
@@ -10,19 +10,19 @@ public class OrbitalSim
     // body and orbital info
     static double periapsis = 1000.0; // 1,000,000 meters
     static double apoapsis = 2000.0; // 2,000,000 meters
-    static double semiMajorAxis; // 7,871,000 meters
+    static double semiMajorAxis;
     static double semiMinorAxis;
     static double eccentricity;
     static double semiLatusRectum; // 6,996.444.4444 meters
+    static double velocity;
 
     static double orbitalAltitude = 1000000; // 1,000,000 meters
-    static double velocity; // 7583.562 meters per second
-    static double orbitalPeriod = 6950; // 6,950 seconds
+    static double orbitalPeriod = 6959; // 6,950 seconds
     static double timeToNextApsis; //3,475 seconds
 
     static double G = 6.6743 * Math.Pow(10, -11); // teehee newtons*meters^2 / kilograms^2
     static double bodyMass = 5972000000 * Math.Pow(10, 15); // 5.972 x 10^24 kilograms
-    static double bodyRadius = 12742000; // 12,742,000 meters
+    static double bodyRadius = 6378000; // 6,378,000 meters
 
     // rocket info
     static double dV = 2000; //2,000 m/s of delta-V
@@ -151,7 +151,7 @@ public class OrbitalSim
 
             else if (readResult == "quit" || readResult == "q")
             {
-                Console.WriteLine("\nhave a good one m8");
+                Console.WriteLine("\nenjoy the FIXED SPEEDS (finally) another time!");
                 Thread.Sleep(500);
                 Environment.Exit(1);
             }
